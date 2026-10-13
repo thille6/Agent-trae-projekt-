@@ -1,0 +1,19 @@
+feature,area,priority,original,clone,notes
+Dark analytics shell,ui,must,yes,yes,Dark background with elevated surfaces and dense dashboard layout
+Quick stats ticker,ui,must,yes,yes,Four stat tiles summarize filtered board state
+Date filters,filters,must,yes,yes,Today tomorrow past and all pills
+League filter,filters,must,yes,yes,Client-side select generated from dataset
+Market filter,filters,must,yes,yes,Supports 1X2 Over/Under and BTTS
+Confidence threshold,filters,must,yes,yes,Supports High Medium+ and Low+
+Confidence-first sorting,filters,must,yes,yes,Sorts by rating then confidence tier
+Match cards,matches,must,yes,yes,Displays home away league time and recommendation
+1X2 probabilities,matches,must,yes,yes,Home draw away percentages shown with bars
+Over under 2.5 probabilities,matches,must,yes,yes,Over and under probabilities shown with bars
+BTTS probabilities,matches,must,yes,yes,Yes and no probabilities shown with bars
+Recommendation badge,matches,must,yes,yes,Selection confidence and model score
+Match detail drawer,details,must,yes,yes,Slide-in drawer with xG form and notes
+Simulated xG metrics,details,should,yes,yes,Home away and total xG
+Recent form chips,details,should,yes,yes,Five-match trend chips for both teams
+Tactical notes,details,should,yes,yes,Three clean-room algorithm notes per fixture
+Design system route,design,could,no,yes,Added to isolate tokens and primitive card
+Local seed dataset,data,must,yes,yes,15 realistic fixtures across major leagues
