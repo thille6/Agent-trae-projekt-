@@ -23,6 +23,7 @@
 # misc
 .DS_Store
 *.pem
+.trae-html-share-packages/
 
 # debug
 npm-debug.log*
